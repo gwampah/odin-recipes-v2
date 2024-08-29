@@ -1,3 +1,9 @@
 body {
+    font-family: Helvetica,'sans-serif',Calibri;
     background-color: #eeeeee;
+}
+
+title {
+    color: 000000;
+    text-align: center;
 }
