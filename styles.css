@@ -7,3 +7,9 @@ title {
     color: 000000;
     text-align: center;
 }
+
+#TOP {
+    height: auto;
+    width: 17vw;
+    display: block;
+}
