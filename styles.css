@@ -13,3 +13,9 @@ title {
     width: 17vw;
     display: block;
 }
+
+#github_logo {
+    height: auto;
+    width: 4vw;
+    display: inline;
+}
