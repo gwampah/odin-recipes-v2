@@ -1,11 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    outline: 2px solid red;
+}
+
 body {
     font-family: Helvetica,'sans-serif',Calibri;
     background-color: #eeeeee;
+    height: auto;
+    width: auto;
 }
 
-title {
+.title {
     color: 000000;
     text-align: center;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    align-content: center;
 }
 
 #TOP {
