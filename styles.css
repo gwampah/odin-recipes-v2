@@ -38,21 +38,22 @@ body {
 }
 
 .food_pics {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     height: auto;
     width: 10vw;
+    padding: 50px;
+    border: 30px;
 }
 
-#pinikpikan {
-    display: block;
-    background-color: #979797;
+.foods {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    border: 30px;
+    margin: 0 auto;
 }
-#dinuguan {
-    display: block;
-}
-#adobo {
-    display: block;
-}
+
 #description_container {
     text-align: center;
 }
