@@ -19,16 +19,45 @@ body {
     width: 250px;
     margin: auto;
     align-content: center;
+    display: block;
+}
+
+.food_names{
+    font-size: 20px;
+}
+
+.food_pics {
+    display: block;
+    height: auto;
+    width: 10vw;
+}
+
+#pinikpikan {
+    display: block;
+}
+#dinuguan {
+    display: block;
+}
+#adobo {
+    display: block;
+}
+#description_container {
+    text-align: center;
+}
+
+#github {
+    align-content: center;
+}
+
+#github_logo {
+    height: auto;
+    width: 50px;
 }
 
 #TOP {
     height: auto;
     width: 17vw;
     display: block;
-}
-
-#github_logo {
-    height: auto;
-    width: 4vw;
-    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
