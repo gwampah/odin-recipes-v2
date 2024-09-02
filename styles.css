@@ -12,6 +12,17 @@ body {
     width: auto;
 }
 
+#description {
+    text-align: center;
+    display: block;
+    width: 35vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+
+}
+
 .title {
     color: 000000;
     text-align: center;
@@ -34,6 +45,7 @@ body {
 
 #pinikpikan {
     display: block;
+    background-color: #979797;
 }
 #dinuguan {
     display: block;
@@ -52,6 +64,7 @@ body {
 #github_logo {
     height: auto;
     width: 50px;
+
 }
 
 #TOP {
