@@ -12,6 +12,16 @@ body {
     width: auto;
 }
 
+.title {
+    color: 000000;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    align-content: center;
+    display: block;
+}
+
 #description {
     text-align: center;
     display: block;
@@ -21,16 +31,6 @@ body {
     margin-right: auto;
     padding: 80px;
 
-}
-
-.title {
-    color: 000000;
-    text-align: center;
-    height: 50px;
-    width: 250px;
-    margin: auto;
-    align-content: center;
-    display: block;
 }
 
 .food_names{
@@ -43,15 +43,15 @@ body {
     height: auto;
     width: 10vw;
     padding: 50px;
-    border: 30px;
+    border: 50px;
 }
 
 .foods {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
-    border: 30px;
-    margin: 0 auto;
+    border: 50px;
+    text-align: center;
 }
 
 #description_container {
