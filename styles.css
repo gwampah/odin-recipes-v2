@@ -10,6 +10,7 @@ body {
     background-color: #eeeeee;
     height: auto;
     width: auto;
+    text-align: center;
 }
 
 .title {
@@ -57,13 +58,24 @@ body {
 
 .food_description {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .foods {
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: center;
+    padding: 30px;
     text-align: center;
+    gap:60px;
+}
+
+#pinikpikan_all, #dinuguan_all, #adobo_all {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 8px 10px #888888;
+    padding: 5px;
 }
 
 #description_container {
